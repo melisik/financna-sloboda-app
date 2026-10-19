@@ -1,0 +1,54 @@
+{
+  "app": "financna-sloboda",
+  "schemaVersion": 1,
+  "exportedAt": "2026-09-30T20:00:00.000Z",
+  "settings": {
+    "expensesCents": 2400000,
+    "withdrawalRate": 0.04,
+    "realReturn": 0.035,
+    "reserveCents": 600000,
+    "thresholdCents": 10000,
+    "feesRate": 0,
+    "lastReviewDate": "2026-09-30"
+  },
+  "snapshots": [
+    {
+      "id": "syn-snap-1",
+      "date": "2026-09-30",
+      "investmentsCents": 10000000,
+      "cashCents": 2000000,
+      "createdAt": "2026-09-30T20:00:00.000Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "syn-tx-1",
+      "date": "2026-10-02",
+      "type": "sporenie",
+      "amountCents": 25000,
+      "note": "syntetická",
+      "createdAt": "2026-10-02T10:00:00.000Z",
+      "updatedAt": "2026-10-02T10:00:00.000Z"
+    },
+    {
+      "id": "syn-tx-2",
+      "date": "2026-10-05",
+      "type": "vydavok",
+      "amountCents": 15000,
+      "source": "z_hotovosti",
+      "note": "syntetická",
+      "createdAt": "2026-10-05T10:00:00.000Z",
+      "updatedAt": "2026-10-05T10:00:00.000Z"
+    },
+    {
+      "id": "syn-tx-3",
+      "date": "2026-10-09",
+      "type": "investicia",
+      "amountCents": 50000,
+      "source": "z_prijmu",
+      "note": "syntetická",
+      "createdAt": "2026-10-09T10:00:00.000Z",
+      "updatedAt": "2026-10-09T10:00:00.000Z"
+    }
+  ]
+}
